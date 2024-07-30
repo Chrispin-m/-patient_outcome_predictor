@@ -10,7 +10,7 @@ setup(
         'numpy',
         'streamlit',
     ],
-    test_suite='tests'
+    test_suite='tests',
     description='A package that uses machine learning models to predict patient outcomes based on medical data.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
