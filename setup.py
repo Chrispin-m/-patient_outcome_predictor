@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='patient_outcome_predictor',
-    version='0.1.6',
+    version='0.1.7',
     packages=find_packages(),
     install_requires=[
         'pandas',
@@ -10,6 +10,7 @@ setup(
         'numpy',
         'streamlit',
     ],
+    test_suite='tests'
     description='A package that uses machine learning models to predict patient outcomes based on medical data.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
