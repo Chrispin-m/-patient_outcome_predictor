@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='patient-outcome-predictor',
-    version='0.1.2',
+    name='patient_outcome_predictor',
+    version='0.1.3',
     packages=find_packages(),
     install_requires=[
         'pandas',
